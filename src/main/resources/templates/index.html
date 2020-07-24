@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<div>
+    <span><a th:href="@{/toLogin}">登录</a> </span><br>
+    <span><a th:href="@{/logout}">注销</a> </span>
+</div>
+<ul>
+    <li>
+        V1
+        <ul>
+            <li><a th:href="@{/v1/1}">View1</a></li>
+            <li><a th:href="@{/v1/2}">View2</a></li>
+        </ul>
+    </li>
+    <li>
+        V2
+        <ul>
+            <li><a th:href="@{/v2/1}">View1</a></li>
+            <li><a th:href="@{/v2/2}">View2</a></li>
+        </ul>
+    </li>
+    <li>
+        V3
+        <ul>
+            <li><a th:href="@{/v3/1}">View1</a></li>
+            <li><a th:href="@{/v3/2}">View2</a></li>
+        </ul>
+    </li>
+</ul>
+</body>
+</html>
